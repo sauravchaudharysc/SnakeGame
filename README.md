@@ -2,34 +2,33 @@
 This project is made using HTML5 and JavaScript.
 
 ## HTML5
-We create a canvas and set it height and width.
+We create a canvas and set it height and width.<br>
 <canvas id="snake" width="608" height="608">
 </canvas>
 
 ## JavaScript
 We select the canvas using document selector.
 
-const cvs = document.getElementById("snake");
-const ctx = cvs.getContext("2d");
+const cvs = document.getElementById("snake");<br>
+const ctx = cvs.getContext("2d");<br>
 
 The getContext gives alot of method and properties to draw anything on canvas.
 
 ### Load Images
-let imageName = new Image();
-imageName.src = "path/img.png";
+let imageName = new Image();<br>
+imageName.src = "path/img.png";<br>
 
 ### Load Audio
-let audioName = new Audio();
-audioName.src = "path/audio.mp3";
-To play :- audioName.play();
+let audioName = new Audio();<br>
+audioName.src = "path/audio.mp3";<br>
+To play :- audioName.play();<br>
 
 ### Draw Images
 ctx.drawImage(imageName,X,Y,Width,Height);
 
 ### Draw Rectangle
-ctx.fillStyle="red";
-ctx.fillRect(X,Y,Width,Height);
-
+ctx.fillStyle="red";<br>
+ctx.fillRect(X,Y,Width,Height);<br>
 The single box of image is called unit.The box here is considered of 32px.
 
         i.Snake
