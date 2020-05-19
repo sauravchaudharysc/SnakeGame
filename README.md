@@ -47,13 +47,13 @@ The single box of image is called unit.The box here is considered of 32px.
                   ctx.strokeRect(snake[i].x,snake[i].y,box,box);
           }
        ii.Food
-       The Food must be placed at random position everytime. So we use Math.Random function for it.So when the snake eat the food we donot pop or remove the tail we just add a new head.
+       The Food must be placed at random position everytime. So we use Math.Random function<br>for it.So when the snake eat the food we donot pop <br>or remove the tail we just add a new head.
 
 ### Control the Snake
 The snake is controlled using the key . The key has keycode associated with it. The keyCode property in java script returns the key pressed and we can use that value to control our snake.
 
           #### Array.pop() && Array.unshift()
-          Pop method removes the last element of array and unshift method add the new elment to the begining of array. So here we simply remove the tail and add a new head for the movement.
+          Pop method removes the last element of array and unshift method add<br>the new elment to the begining of array. So here we simply remove<br>the tail and add a new head for the movement.
 
 
           // old head position
