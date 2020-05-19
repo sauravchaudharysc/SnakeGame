@@ -53,7 +53,8 @@ The single box of image is called unit.The box here is considered of 32px.
 ### Control the Snake
 The snake is controlled using the key . The key has keycode associated with it. The keyCode property in java script returns the key pressed and we can use that value to control our snake.
 
-          #### Array.pop() && Array.unshift()
+   #### Array.pop() && Array.unshift()
+          
           Pop method removes the last element of array and unshift method add<br>the new elment
           to the begining of array. So here we simply remove the tail and add a new head for the
           movement.
